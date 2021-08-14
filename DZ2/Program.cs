@@ -49,11 +49,6 @@ namespace DZ2
                 Console.WriteLine($"мин знач - {minValue}");//ес        }        }
                 
             }
-            
-             
-               
-          //  Console.WriteLine($"мин знач - {minValue}");//ес
-
              else 
                 //(isInc)
               {
