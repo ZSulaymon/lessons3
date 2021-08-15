@@ -16,12 +16,12 @@ namespace DZ3._1
             if (summAmount > pAmount1 && summAmount < pAmount2)
             {
                 var sum = summAmount * discount3;
-                Console.Write($"Сумма к оплате с учётом 3% скидкой составляет {pAmount1 - sum}");
+                Console.Write($"Сумма к оплате с учётом 3% скидкой составляет {summAmount - sum}");
             }
             else if (summAmount > pAmount2)
             {
                 var sum = summAmount * discount5;
-                Console.Write($"Сумма к оплате с учётом 5% скилкой составляет {pAmount2 - sum}");
+                Console.Write($"Сумма к оплате с учётом 5% скилкой составляет {summAmount - sum}");
             }
             else
             {
