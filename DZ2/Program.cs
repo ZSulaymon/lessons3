@@ -29,7 +29,7 @@ namespace DZ2
                     break;
                 }
 
-             if (mass[0] == mass[1] && mass[2] == mass[3])
+             if (mass[0] == mass[1] && mass[2] == mass[3] && mass[0]==mass[3])
             {
                 var summ = mass[0] * mass[1] * mass[2] * mass[3];
                 Console.Write($"произведение чисел = { summ }");
